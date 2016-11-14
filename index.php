@@ -3,6 +3,6 @@
 require 'vendor/autoload.php';
 
 //router
-require 'config/routes.php';
+require 'router/routes.php';
 
 ?>
