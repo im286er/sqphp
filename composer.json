@@ -1,5 +1,11 @@
 {
   "require": {
     "klein/klein": "^2.1"
+  },
+  "autoload": {
+    "classmap": [
+      "app/controllers",
+      "app/models"
+    ]
   }
 }

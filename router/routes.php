@@ -1,5 +1,6 @@
 <?php
 use Klein\Klein;
+require 'app/controllers/HomeController.php';
 
 $klein = new \Klein\Klein();
 /*
@@ -8,9 +9,13 @@ $klein->respond(function($request){
 });
 */
 $klein->respond('GET','/hello-world',function(){
-        echo 'Hello World';
+    echo 'Hello World';
 });
 
+$klein->respond('GET','',function(){
+	$Home = new HomeController();
+	$Home->home(); 
+});
 /*
 $klein->respond(function(){
 	echo 'others';
