@@ -23,6 +23,7 @@ class ComposerStaticInite4b65358ac0d095aa0bda26b08a9310c
     public static $classMap = array (
         'BaseController' => __DIR__ . '/../..' . '/app/controllers/BaseController.php',
         'HomeController' => __DIR__ . '/../..' . '/app/controllers/HomeController.php',
+        'Model' => __DIR__ . '/../..' . '/app/models/Model.php',
         'Mysql_DB_Conn' => __DIR__ . '/../..' . '/app/models/Mysql_DB_Conn.php',
         'PDO_DB_Conn' => __DIR__ . '/../..' . '/app/models/PDO_DB_Conn.php',
         'Smarty' => __DIR__ . '/..' . '/smarty/smarty/libs/Smarty.class.php',
@@ -192,6 +193,7 @@ class ComposerStaticInite4b65358ac0d095aa0bda26b08a9310c
         'TPC_yyToken' => __DIR__ . '/..' . '/smarty/smarty/libs/sysplugins/smarty_internal_configfileparser.php',
         'TP_yyStackEntry' => __DIR__ . '/..' . '/smarty/smarty/libs/sysplugins/smarty_internal_templateparser.php',
         'TP_yyToken' => __DIR__ . '/..' . '/smarty/smarty/libs/sysplugins/smarty_internal_templateparser.php',
+        'UserModel' => __DIR__ . '/../..' . '/app/models/UserModel.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

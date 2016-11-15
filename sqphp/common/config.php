@@ -6,5 +6,6 @@ return array(
 	'host' => '127.0.0.1',
 	'user' => 'root',
 	'pwd'  => 'chenxiuting',
-	'database' => 'swzx'
+	'database' => 'swzx',
+	'table_prefix' => 'swzx_'
 );

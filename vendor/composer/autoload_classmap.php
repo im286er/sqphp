@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'HomeController' => $baseDir . '/app/controllers/HomeController.php',
+    'Model' => $baseDir . '/app/models/Model.php',
     'Mysql_DB_Conn' => $baseDir . '/app/models/Mysql_DB_Conn.php',
     'PDO_DB_Conn' => $baseDir . '/app/models/PDO_DB_Conn.php',
     'Smarty' => $vendorDir . '/smarty/smarty/libs/Smarty.class.php',
@@ -177,4 +178,5 @@ return array(
     'TPC_yyToken' => $vendorDir . '/smarty/smarty/libs/sysplugins/smarty_internal_configfileparser.php',
     'TP_yyStackEntry' => $vendorDir . '/smarty/smarty/libs/sysplugins/smarty_internal_templateparser.php',
     'TP_yyToken' => $vendorDir . '/smarty/smarty/libs/sysplugins/smarty_internal_templateparser.php',
+    'UserModel' => $baseDir . '/app/models/UserModel.php',
 );

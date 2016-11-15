@@ -36,3 +36,13 @@ function C($name=null, $value=null,$default=null) {
     }
     return null; // 避免非法参数
 }
+/**
+ * 快捷实例化模型
+ * @param unknown_type $ModelName
+ */
+function MOD($ModelName){
+	$ModelName=ucfirst($ModelName);
+	$ModelName=$ModelName."Model";
+	return new $ModelName();
+	
+}
