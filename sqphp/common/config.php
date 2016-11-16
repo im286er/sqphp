@@ -6,7 +6,7 @@ return array(
 	//mysql
 	'host' => '127.0.0.1',
 	'user' => 'root',
-	'pwd'  => 'chenxiuting',
+	'pwd'  => '',
 	'database' => 'swzx',
 	'table_prefix' => 'swzx_',
 	//redis
