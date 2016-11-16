@@ -1,4 +1,5 @@
 <?php
+//初始化配置文件
 if(is_file(__DIR__."/config.php"))
 {
     // config.php文件返回一个数组
@@ -45,4 +46,25 @@ function MOD($ModelName){
 	$ModelName=$ModelName."Model";
 	return new $ModelName();
 	
+}
+
+/**
+*	重新封装session
+*/
+function session($name,$value=""){
+	
+	if(empty($name)){
+		return $_SESSION;
+	}
+	$ses = Session::getInstance();
+	if($value===""){
+		return $ses->get($name); 
+		//return $_SESSION["$name"];
+	}else if(is_null($value)){
+		return $ses->clear($name);
+		//unset($_SESSION["$value"]);
+	}else{
+		return $ses->set($name,$value);
+		//$_SESSION["$name"] = $value;
+	}
 }

@@ -11,6 +11,7 @@ return array(
     'Model' => $baseDir . '/app/models/Model.php',
     'Mysql_DB_Conn' => $baseDir . '/app/models/Mysql_DB_Conn.php',
     'PDO_DB_Conn' => $baseDir . '/app/models/PDO_DB_Conn.php',
+    'Session' => $baseDir . '/sqphp/Cache/Drive/Session.php',
     'Smarty' => $vendorDir . '/smarty/smarty/libs/Smarty.class.php',
     'SmartyBC' => $vendorDir . '/smarty/smarty/libs/SmartyBC.class.php',
     'SmartyCompilerException' => $vendorDir . '/smarty/smarty/libs/sysplugins/smartycompilerexception.php',

@@ -26,6 +26,7 @@ class ComposerStaticInite4b65358ac0d095aa0bda26b08a9310c
         'Model' => __DIR__ . '/../..' . '/app/models/Model.php',
         'Mysql_DB_Conn' => __DIR__ . '/../..' . '/app/models/Mysql_DB_Conn.php',
         'PDO_DB_Conn' => __DIR__ . '/../..' . '/app/models/PDO_DB_Conn.php',
+        'Session' => __DIR__ . '/../..' . '/sqphp/Cache/Drive/Session.php',
         'Smarty' => __DIR__ . '/..' . '/smarty/smarty/libs/Smarty.class.php',
         'SmartyBC' => __DIR__ . '/..' . '/smarty/smarty/libs/SmartyBC.class.php',
         'SmartyCompilerException' => __DIR__ . '/..' . '/smarty/smarty/libs/sysplugins/smartycompilerexception.php',

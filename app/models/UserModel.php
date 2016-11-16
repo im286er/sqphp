@@ -13,4 +13,7 @@ class UserModel extends Model{
 		);
 		$row = $this->where("account='666666'")->data($data)->update();
 	}
+	public function select(){
+		
+	}
 }
